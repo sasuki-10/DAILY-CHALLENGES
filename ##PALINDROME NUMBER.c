@@ -6,7 +6,6 @@ int temp;
   printf("Enter number to check palindrome or not\n");
   scanf("%d",&n);
   temp = n;
-  
    while(n>0)
   {
    r = n%10;
