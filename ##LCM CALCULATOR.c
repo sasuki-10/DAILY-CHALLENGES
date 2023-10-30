@@ -21,7 +21,6 @@ else
         printf("THE LCM OF %d and %d is:%d",n,m,max);
         break;
     }
-    max++;
-    
+    max++; 
     }
 }
