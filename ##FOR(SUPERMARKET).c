@@ -7,8 +7,7 @@ int main()
     {
        sum=sum+n;
       printf("ENTER THE PRICE:");
-      scanf("%d",&n);
-       
+      scanf("%d",&n);   
     } 
      printf("total of the prices: %d",sum);
 } 
