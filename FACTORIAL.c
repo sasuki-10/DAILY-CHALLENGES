@@ -7,7 +7,7 @@ int main()
    
   for(int i=1;i<=num;i++)
     {
-      fact=fact*i;
+       fact=fact*i;
     } 
     printf("FACTORIAL OF THE NUMBER:%d",fact);
 } 
