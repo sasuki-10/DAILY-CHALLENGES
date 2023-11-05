@@ -19,8 +19,7 @@ int main()
         if((max%n1==0)&&(max%n2==0))
         {
             printf("THE LCM OF %d and %d is:%d",n1,n2,max);
-            break;
-            
+            break;    
         }
         ++max;
     }
