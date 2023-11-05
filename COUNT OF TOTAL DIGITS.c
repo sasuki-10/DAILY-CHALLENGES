@@ -5,7 +5,6 @@ int main()
   int count = 0;
   printf("Enter an integer: ");
   scanf("%d", &n);
- 
   do {
       n /= 10;
      ++count;
