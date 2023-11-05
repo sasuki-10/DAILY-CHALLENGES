@@ -3,12 +3,9 @@ int main()
 {
    int i,n;
    float s=0.0;
-   
    printf("Input the number of terms : ");
    scanf("%d",&n);
-   
-   printf("\n\n");
-   
+
    for(i=1;i<=n;i++)
    {
        if(i<n)
