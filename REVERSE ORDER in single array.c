@@ -26,5 +26,6 @@ int main()
 	else;
 	{
 	    printf("GIVEN ARRAY IS  IN REVERSE ORDER");	
+
 	}	
 }
