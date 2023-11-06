@@ -9,6 +9,5 @@ int main()
     {
         printf(" %0.1f",pow(i,i));
     }
-    
     return 0;
 }
