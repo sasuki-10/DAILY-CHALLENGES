@@ -9,9 +9,7 @@ int main()
 
     // Copy the value of num to a temporary variable 
     originalNum = num;
-
     sum = 0;
-    
     while(num > 0)
     {
         lastDigit = num % 10;
@@ -21,7 +19,6 @@ int main()
             fact = fact * i;
         }
         sum = sum + fact;
-
         num = num / 10;
     }
 
@@ -34,6 +31,5 @@ int main()
     {
         printf("%d is NOT STRONG NUMBER", originalNum);
     }
-
     return 0;
 }
