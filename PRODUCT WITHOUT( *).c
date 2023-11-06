@@ -13,6 +13,5 @@ int main()
       y--;
    }
    printf("Product = %d", product);
-   
    return 0;
 }
