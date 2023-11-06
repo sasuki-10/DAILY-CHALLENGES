@@ -8,15 +8,18 @@ int main()
    printf("\nENTER THE VALUE OF CHEMICAL: ");
    scanf("%f",&pH);
   if(pH>7.0)
+  {
     printf("CHEMICAL IS BASIC ☺");
+  }
     
-         else if(pH<7.0)
+   else if(pH<7.0)
+   {
          printf("CHEMICAL IS Acidic ☺");
-          
-             else
-              printf("CHEMICAL IS Neutral ☺");
-
+   }     
+    else
+   {
+     printf("CHEMICAL IS Neutral ☺");
+   }
     printf("\nEnter the name of chemical: ");
     scanf("%d",&chemical);
-
 }
