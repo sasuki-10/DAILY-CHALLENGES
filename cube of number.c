@@ -8,7 +8,6 @@ int main()
     for( int i=1;i<=num;i++)
     {
         printf(" %0.1f",pow(i,3));
-    }
-    
+    } 
     return 0;
 }
