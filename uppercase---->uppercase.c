@@ -6,7 +6,7 @@ int main()
 	printf("Enter the string:");
 	gets(f[i]);
 	while(f[i]!=NULL);
-    ++i;
+        ++i;
 	for(c=0;c<=i;c++)
 	{
 		temp=f[c];
