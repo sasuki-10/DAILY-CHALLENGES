@@ -10,13 +10,13 @@ int main()
 	{
 	  printf("\narr1[%d]=",i);
 	  scanf("%d",&arr1[i]);
-    }
+        }
 	printf("\nInserting the value in arr2[]");
 	for(i=0;i<5;i++)
 	{
 	  printf("\narr2[%d]=",i);
 	  scanf("%d",&arr2[i]);
-    }	
+        }	
 	for(i=0;i<5;i++)  	
 	{
 		if(arr2[i]==arr1[10-i-1])
@@ -31,7 +31,7 @@ int main()
 	else
 	{
 	    printf("GIVEN ARRAY IS NOT IN REVERSE ORDER");	
-		}	
+	}	
 }
 
 
