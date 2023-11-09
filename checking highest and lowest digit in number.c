@@ -10,7 +10,6 @@ int main()
      { 
          i=temp%10;
          temp/=10;
-     
       if(i<low)
       {
           low=i;
