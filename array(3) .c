@@ -18,6 +18,5 @@ int main()
            }
     }
     printf("sum is: ",sum);
-    
      return 0;
 }
