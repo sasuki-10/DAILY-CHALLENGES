@@ -5,8 +5,7 @@ int main()
  printf("********ENTER NAMES********");
  for(i=0;i<5;i++)
  {
-  gets(a[i]);
-  	
+  gets(a[i]);	
  }
  printf("the names are:");
  for(i=0;i<5;i++)
