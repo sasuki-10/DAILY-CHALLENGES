@@ -18,6 +18,5 @@ int main()
         s=s+1/(float)i;
         }
     }
-        printf("\nSum of Series upto %d terms : %f \n",n,s);
- 
+        printf("\nSum of Series upto %d terms : %f \n",n,s;
 }  
