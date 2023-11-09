@@ -11,7 +11,6 @@ int main()
 	  printf("\narr[%d]=",i);
 	  scanf("%d",&arr[i]);
     }
-	
 	for(i=0;i<(MAX)/2;i++)  	
 	{
 		if(arr[i]==arr[MAX-i-1])
@@ -26,6 +25,5 @@ int main()
 	else;
 	{
 	    printf("GIVEN ARRAY IS  IN REVERSE ORDER");	
-
 	}	
 }
