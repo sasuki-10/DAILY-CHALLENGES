@@ -24,7 +24,7 @@ void perimeter(int a,int b)
 	{
 		p=2*a+b;
 	    printf("\nTRIANGLE IS ISOSCALES...");
-		printf("\nperimeter is:%d",p);	
+	    printf("\nperimeter is:%d",p);	
 	}
 }
 //main function..
