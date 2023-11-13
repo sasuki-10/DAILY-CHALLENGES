@@ -1,4 +1,5 @@
 #include<stdio.h>
+//function for area
 float area(float r)
 {
 	
@@ -6,14 +7,14 @@ float area(float r)
 	a=3.14*r*r;	
 	return a;
 }
-
+//function for circumference
 float circ(float r)
 {
 	float c;
 	c=2*3.14*r;
 	return c;
 }
-
+//main function...
 int main()
 {
 	float n;
