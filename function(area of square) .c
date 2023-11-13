@@ -9,10 +9,9 @@ void area(int a)
 //function which calculates perimeter.
 void perimeter(int a)
 { 
-       int p;  
+           int p;  
 	   p=4*a;
-	   printf("\nperimeter of square is:%d",p);	
-	
+	   printf("\nperimeter of square is:%d",p);		
 }
 //main function..
 int main()
