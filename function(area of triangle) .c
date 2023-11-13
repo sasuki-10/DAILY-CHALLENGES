@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// function that calculates area
 void area(int a,int b)
 {
   int s;
@@ -7,7 +7,7 @@ void area(int a,int b)
   printf("Area of triangle:%d",s);
   
 }
-
+//function that calculates perimeter
 void perimeter(int a,int b)
 {
 	int sides;
@@ -27,6 +27,7 @@ void perimeter(int a,int b)
 		printf("\nperimeter is:%d",p);	
 	}
 }
+//main function..
 int main()
 {
 	int a,b;
