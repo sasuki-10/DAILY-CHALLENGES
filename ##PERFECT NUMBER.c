@@ -16,6 +16,7 @@ int main()
     {
         printf("GIVEN NUMBER IS PERFECT");
     }
+    
     else
     {
        printf("GIVEN NUMBER IS NOT PERFECT"); 
