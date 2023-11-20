@@ -11,6 +11,7 @@ int main()
          sum=sum+i;  
         }
     }
+   
     if(num==sum)
     {
         printf("GIVEN NUMBER IS PERFECT");
