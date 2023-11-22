@@ -4,7 +4,7 @@ struct student
   char rn[50];
   char name[50];
   int marks[5];
-	float per;
+  float per;
 }s1;
 
 int main()
