@@ -11,7 +11,7 @@ int main()
 	int x=5,y=10;
 	printf("before swap %d and %d",x,y);
 	printf("\nafter swapping",x,y);
-	swap(&x,&y);
+	swap(&x,&y);              //call by reference 
 	printf("\nx=%d \n y=%d",x,y);
 	return 0;
 }
