@@ -2,8 +2,8 @@
 struct student
 {
   char rn[50];
-	char name[50];
-	int marks[5];
+  char name[50];
+  int marks[5];
 	float per;
 }s1;
 
