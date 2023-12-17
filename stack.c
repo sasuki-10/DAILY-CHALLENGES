@@ -59,8 +59,7 @@ int pop()
 		return ;
 	}
 	else{
-	
-     	x=p->data[p->top];
+		x=p->data[p->top];
 		p->top=p->top-1;
 		return x;
 	}
@@ -74,17 +73,12 @@ int main()
 	push(15);
 	push(18);
 	push(30);
-    push(40);
+        push(40);
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
- 
-
-	getch();
+getch();
 }
 
 
